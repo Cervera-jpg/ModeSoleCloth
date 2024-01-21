@@ -11,7 +11,7 @@
 }
 .nav-logo img {
   height: auto;
-  width: 400px;
+  width: 300px;
 }
 .nav-menu {
   display: flex;
@@ -46,8 +46,8 @@
   gap: 45px;
 }
 .nav-login-cart button {
-  width: 157px;
-  height: 58px;
+  width: 100px;
+  height: 50px;
   outline: none;
   border: 1px solid #765def;
   border-radius: 75px;
