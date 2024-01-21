@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart from "../Assets/cart_icon.png";
 import { PiPantsFill } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
@@ -17,33 +18,49 @@ const Navbar = () => {
             setMenu("home");
           }}
         >
-          Home{menu === "home" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/">
+            Home
+          </Link>{" "}
+          {menu === "home" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("women");
           }}
         >
-          Women{menu === "women" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/women">
+            Women
+          </Link>
+          {menu === "women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("men");
           }}
         >
-          Men{menu === "men" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="men">
+            Men
+          </Link>
+          {menu === "men" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("kids");
           }}
         >
-          Kids{menu === "kids" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="kids">
+            Kids
+          </Link>
+          {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <img src={cart} alt="cart icon" />
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <img src={cart} alt="cart icon" />
+        </Link>
         <div className="nav-cart-number">0</div>
       </div>
     </div>
