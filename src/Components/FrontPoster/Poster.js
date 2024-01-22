@@ -12,7 +12,7 @@ const Poster = () => {
           <div className="poster-hand-icon">
             <p>Indulge in the</p>
           </div>
-          <img src={astonishing} className="extra" alt="extra-pic" />
+          <img src={astonishing} className="astonishing" alt="" />
           <p>A new dimension to style</p>
         </div>
         <div className="poster-latest-btn">
