@@ -1,11 +1,11 @@
 .shop-category {
-  background-color: rgb(223, 211, 202);
+  background-color: #f0c2c2;
 }
 
 .shopcategory-banner {
-  display: block;
   margin: 30px auto;
-  width: 80%;
+  width: 70%;
+  margin-left: 330px;
 }
 .shopcategory-indexSort {
   display: flex;
@@ -35,7 +35,7 @@
   width: 233px;
   height: 69px;
   border-radius: 75px;
-  background: #ededed;
+  background: #f5f5dc;
   color: #787878;
   font-size: 18px;
   font-weight: 500;
