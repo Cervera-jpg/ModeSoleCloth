@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import Product_ID from "../Components/Product/Product_ID";
+import Product_ID from "../Components/Products/Product_ID";
 
 export const ShopContext = createContext(null);
 
