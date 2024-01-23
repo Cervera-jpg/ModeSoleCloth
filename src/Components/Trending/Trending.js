@@ -4,10 +4,10 @@ import Display from "../Display/Display";
 import Trending_Display from "../Products/Trending_Display";
 const Trending = () => {
   return (
-    <div className="popular">
+    <div className="trending">
       <h1>TRENDING FITS</h1>
       <hr />
-      <div className="popular-item">
+      <div className="trending-product">
         {Trending_Display.map((item, i) => {
           return (
             <Display
