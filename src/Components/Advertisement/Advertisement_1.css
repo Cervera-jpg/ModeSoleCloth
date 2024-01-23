@@ -1,3 +1,6 @@
+.Advertisement_1 {
+  background-color: #f6d9ce;
+}
 .offers1 {
   width: 60%;
   height: 40vh;
@@ -8,7 +11,6 @@
   background: linear-gradient(180deg, #d49025 0%, #e1ffea22 80%);
 }
 .offers-left1 img {
-  margin-right: 100px;
   margin-top: 20px;
   height: auto;
   width: 350px;
