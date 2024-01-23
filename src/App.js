@@ -19,11 +19,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route
             path="/women"
-            element={<ShopCategory banner={banner_w} category="women" />}
+            element={<ShopCategory banner={banner_w} category="womens" />}
           />
           <Route
             path="/men"
-            element={<ShopCategory banner={banner_m} category="men" />}
+            element={<ShopCategory banner={banner_m} category="mens" />}
           />
           <Route
             path="/kids"
