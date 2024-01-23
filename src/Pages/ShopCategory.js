@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./CSS/ShopCategory.css";
-import { ShopContext } from "../shop/ShopContext";
+import { ShopContext } from "../shop/ShopContext.js";
 
 const ShopCategory = (props) => {
   const { Product_ID } = useContext(ShopContext);
