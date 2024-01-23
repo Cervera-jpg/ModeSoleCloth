@@ -217,3 +217,5 @@ let Product_ID = [
     old_price: 124.5,
   },
 ];
+
+export default Product_ID;
