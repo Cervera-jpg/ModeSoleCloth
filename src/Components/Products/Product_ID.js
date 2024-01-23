@@ -10,6 +10,18 @@ import p9_img from "./Assets/Kids/kids_9.jpeg";
 import p10_img from "./Assets/Kids/kids_10.jpeg";
 import p11_img from "./Assets/Kids/kids_11.jpeg";
 import p12_img from "./Assets/Kids/kids_12.jpeg";
+import p13_img from "./Assets/Womens/womens_1.jpeg";
+import p14_img from "./Assets/Womens/womens_2.jpeg";
+import p15_img from "./Assets/Womens/womens_3.jpeg";
+import p16_img from "./Assets/Womens/womens_4.jpeg";
+import p17_img from "./Assets/Womens/womens_5.jpeg";
+import p18_img from "./Assets/Womens/womens_6.jpeg";
+import p19_img from "./Assets/Womens/womens_7.jpeg";
+import p20_img from "./Assets/Womens/womens_8.jpeg";
+import p21_img from "./Assets/Womens/womens_9.jpeg";
+import p22_img from "./Assets/Womens/womens_10.jpeg";
+import p23_img from "./Assets/Womens/womens_11.jpeg";
+import p24_img from "./Assets/Womens/womens_12.jpeg";
 
 let Product_ID = [
   {
@@ -105,6 +117,102 @@ let Product_ID = [
     name: "Pink Jumpers with Bag Set",
     category: "kids",
     image: p12_img,
+    new_price: 99.0,
+    old_price: 124.5,
+  },
+  {
+    id: 13,
+    name: "All Black Outfit Set with Bucket Hat",
+    category: "kids",
+    image: p13_img,
+    new_price: 99.0,
+    old_price: 145.5,
+  },
+  {
+    id: 14,
+    name: "Aesthetic Kid Set",
+    category: "kids",
+    image: p14_img,
+    new_price: 87.0,
+    old_price: 125.5,
+  },
+  {
+    id: 15,
+    name: "Stylish Boy Set with Hat",
+    category: "kids",
+    image: p15_img,
+    new_price: 69.0,
+    old_price: 115.5,
+  },
+  {
+    id: 16,
+    name: "Black Panda Set",
+    category: "kids",
+    image: p16_img,
+    new_price: 79.0,
+    old_price: 129,
+  },
+  {
+    id: 17,
+    name: "Stylish Brilliant Girl Set",
+    category: "kids",
+    image: p17_img,
+    new_price: 119.0,
+    old_price: 158,
+  },
+  {
+    id: 18,
+    name: "Yale University Set",
+    category: "kids",
+    image: p18_img,
+    new_price: 46.0,
+    old_price: 157,
+  },
+  {
+    id: 19,
+    name: "Striped Shirt Cool Set",
+    category: "kids",
+    image: p19_img,
+    new_price: 94.0,
+    old_price: 185,
+  },
+  {
+    id: 20,
+    name: "Black Unlucky Hoodie and Shorts Set",
+    category: "kids",
+    image: p20_img,
+    new_price: 125.4,
+    old_price: 189,
+  },
+  {
+    id: 21,
+    name: "Tout Hat and Red Shirt Set",
+    category: "kids",
+    image: p21_img,
+    new_price: 69.0,
+    old_price: 135.9,
+  },
+  {
+    id: 22,
+    name: "The Avocado Themed Set",
+    category: "kids",
+    image: p22_img,
+    new_price: 98.0,
+    old_price: 168.5,
+  },
+  {
+    id: 23,
+    name: "Minimalistic Clothing Set",
+    category: "kids",
+    image: p23_img,
+    new_price: 87.0,
+    old_price: 149.5,
+  },
+  {
+    id: 24,
+    name: "Pink Jumpers with Bag Set",
+    category: "kids",
+    image: p24_img,
     new_price: 99.0,
     old_price: 124.5,
   },
