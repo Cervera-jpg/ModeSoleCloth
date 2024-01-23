@@ -1,27 +1,27 @@
-import p1_img from "./Assets/Kids/kids_1.jpeg";
-import p2_img from "./Assets/Kids/kids_2.jpeg";
-import p3_img from "./Assets/Kids/kids_3.jpeg";
-import p4_img from "./Assets/Kids/kids_4.jpeg";
-import p5_img from "./Assets/Kids/kids_5.jpeg";
-import p6_img from "./Assets/Kids/kids_6.jpeg";
-import p7_img from "./Assets/Kids/kids_7.jpeg";
-import p8_img from "./Assets/Kids/kids_8.jpeg";
-import p9_img from "./Assets/Kids/kids_9.jpeg";
-import p10_img from "./Assets/Kids/kids_10.jpeg";
-import p11_img from "./Assets/Kids/kids_11.jpeg";
-import p12_img from "./Assets/Kids/kids_12.jpeg";
-import p13_img from "./Assets/Womens/womens_1.jpeg";
-import p14_img from "./Assets/Womens/womens_2.jpeg";
-import p15_img from "./Assets/Womens/womens_3.jpeg";
-import p16_img from "./Assets/Womens/womens_4.jpeg";
-import p17_img from "./Assets/Womens/womens_5.jpeg";
-import p18_img from "./Assets/Womens/womens_6.jpeg";
-import p19_img from "./Assets/Womens/womens_7.jpeg";
-import p20_img from "./Assets/Womens/womens_8.jpeg";
-import p21_img from "./Assets/Womens/womens_9.jpeg";
-import p22_img from "./Assets/Womens/womens_10.jpeg";
-import p23_img from "./Assets/Womens/womens_11.jpeg";
-import p24_img from "./Assets/Womens/womens_12.jpeg";
+import p1_img from "../Assets/Kids/kids_1.jpeg";
+import p2_img from "../Assets/Kids/kids_2.jpeg";
+import p3_img from "../Assets/Kids/kids_3.jpeg";
+import p4_img from "../Assets/Kids/kids_4.jpeg";
+import p5_img from "../Assets/Kids/kids_5.jpeg";
+import p6_img from "../Assets/Kids/kids_6.jpeg";
+import p7_img from "../Assets/Kids/kids_7.jpeg";
+import p8_img from "../Assets/Kids/kids_8.jpeg";
+import p9_img from "../Assets/Kids/kids_9.jpeg";
+import p10_img from "../Assets/Kids/kids_10.jpeg";
+import p11_img from "../Assets/Kids/kids_11.jpeg";
+import p12_img from "../Assets/Kids/kids_12.jpeg";
+import p13_img from "../Assets/Womens/womens_1.jpeg";
+import p14_img from "../Assets/Womens/womens_2.jpeg";
+import p15_img from "../Assets/Womens/womens_3.jpeg";
+import p16_img from "../Assets/Womens/womens_4.jpeg";
+import p17_img from "../Assets/Womens/womens_5.jpeg";
+import p18_img from "../Assets/Womens/womens_6.jpeg";
+import p19_img from "../Assets/Womens/womens_7.jpeg";
+import p20_img from "../Assets/Womens/womens_8.jpeg";
+import p21_img from "../Assets/Womens/womens_9.jpeg";
+import p22_img from "../Assets/Womens/womens_10.jpeg";
+import p23_img from "../Assets/Womens/womens_11.jpeg";
+import p24_img from "../Assets/Womens/womens_12.jpeg";
 
 let Product_ID = [
   {
@@ -217,5 +217,3 @@ let Product_ID = [
     old_price: 124.5,
   },
 ];
-
-export default Product_ID;
