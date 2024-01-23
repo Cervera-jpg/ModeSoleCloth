@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./CSS/ShopCategory.css";
 import { ShopContext } from "../shop/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
@@ -6,19 +6,26 @@ import Display from "../Components/Display/Display";
 
 const ShopCategory = (props) => {
   const { Product_ID } = useContext(ShopContext);
+  const [displayCount, setDisplayCount] = useState(12); // Initially display 12 products
+
+  const handleLoadMore = () => {
+    setDisplayCount(displayCount + 12); // Increase the display count by 12 when "Explore More" is clicked
+  };
+
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={props.banner} alt="" />
       <div className="shopcategory-indexSort">
         <p>
-          <span>Showing 1-12</span> out of 36 products
+          <span>Showing 1-{displayCount}</span> out of {Product_ID.length}{" "}
+          products
         </p>
         <div className="shopcategory-sort">
           Sort by <img src={dropdown_icon} alt="" />
         </div>
       </div>
       <div className="shopcategory-products">
-        {Product_ID.map((item, i) => {
+        {Product_ID.slice(0, displayCount).map((item, i) => {
           if (props.category === item.category) {
             return (
               <Display
@@ -35,8 +42,13 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
-      <div className="shopcategory-loadmore">Explore More</div>
+      {displayCount < Product_ID.length && (
+        <div className="shopcategory-loadmore" onClick={handleLoadMore}>
+          Explore More
+        </div>
+      )}
     </div>
   );
 };
+
 export default ShopCategory;
