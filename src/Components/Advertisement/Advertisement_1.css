@@ -8,6 +8,8 @@
   background: linear-gradient(180deg, #d49025 0%, #e1ffea22 80%);
 }
 .offers-left1 img {
+  margin-right: 100px;
+  margin-top: 20px;
   height: auto;
   width: 350px;
 }
@@ -35,18 +37,7 @@
   font-size: 22px;
   font-weight: 600;
 }
-.offers-left1 button {
-  width: 282px;
-  height: 70px;
-  border-radius: 35px;
-  background: #a65208;
-  border: none;
-  color: white;
-  font-size: 22px;
-  font-weight: 500;
-  margin-top: 30px;
-  cursor: pointer;
-}
+
 .offers-right1 {
   flex: 1;
   display: flex;
