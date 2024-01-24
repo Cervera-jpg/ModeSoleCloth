@@ -34,6 +34,18 @@ import p33_img from "../Assets/Men/men_9.jpeg";
 import p34_img from "../Assets/Men/men_10.jpeg";
 import p35_img from "../Assets/Men/men_11.jpeg";
 import p36_img from "../Assets/Men/men_12.jpeg";
+import p37_img from "../Assets/Men/men_13.jpg";
+import p38_img from "../Assets/Men/men_14.jpg";
+import p39_img from "../Assets/Men/men_15.jpg";
+import p40_img from "../Assets/Men/men_16.jpg";
+import p41_img from "../Assets/Men/men_17.jpg";
+import p42_img from "../Assets/Men/men_18.jpg";
+import p43_img from "../Assets/Men/men_19.jpg";
+import p44_img from "../Assets/Men/men_20.jpg";
+import p45_img from "../Assets/Men/men_21.jpg";
+import p46_img from "../Assets/Men/men_22.jpg";
+import p47_img from "../Assets/Men/men_23.jpg";
+import p48_img from "../Assets/Men/men_24.jpg";
 
 let Product_ID = [
   {
@@ -321,6 +333,102 @@ let Product_ID = [
     name: "Black HipHop Themed Clothing Set",
     category: "mens",
     image: p36_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 37,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p37_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 38,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p38_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 39,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p39_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 40,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p40_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 41,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p41_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 42,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p42_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 43,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p43_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 44,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p44_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 45,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p45_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 46,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p46_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 47,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p47_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 48,
+    name: "Black HipHop Themed Clothing Set",
+    category: "mens",
+    image: p48_img,
     new_price: 5950,
     old_price: 9450,
   },
