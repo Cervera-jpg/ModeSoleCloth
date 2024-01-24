@@ -6,7 +6,7 @@ import Display from "../Components/Display/Display";
 
 const ShopCategory = (props) => {
   const { Product_ID } = useContext(ShopContext);
-  const [visibleProducts, setVisibleProducts] = useState(4); // Initial number of visible products
+  const [visibleProducts, setVisibleProducts] = useState(48); // Initial number of visible products
 
   const loadMore = () => {
     setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4); // Increase the number of visible products by 4
