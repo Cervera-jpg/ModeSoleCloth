@@ -16,9 +16,10 @@
 .shopcategory-sort {
   padding: 10px 20px;
   border-radius: 40px;
+  color: #fff;
   border: 1px solid #888;
   cursor: pointer;
-  background-color: #f5f5dc;
+  background-color: #d49025;
 }
 .shopcategory-indexSort p span {
   font-weight: 600;
@@ -37,8 +38,8 @@
   width: 233px;
   height: 69px;
   border-radius: 75px;
-  background: #b3c9bc;
-  color: #fdebeb;
+  background: #d49025;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
