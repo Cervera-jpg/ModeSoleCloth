@@ -6,6 +6,7 @@ import Latest from "../Components/LatestRelease/Latest";
 import Advertisement from "../Components/Advertisement/Advertisement";
 import Advertisement_1 from "../Components/Advertisement/Advertisement_1";
 import Sale from "../Components/Sale/Sale";
+
 const Home = () => {
   return (
     <div>
