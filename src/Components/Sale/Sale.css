@@ -22,3 +22,62 @@
   display: flex;
   gap: 30px;
 }
+@media (max-width: 1280px) {
+  .sale {
+    height: 70vh;
+  }
+  .sale h1 {
+    font-size: 40px;
+  }
+  .sale hr {
+    width: 160px;
+    height: 4px;
+  }
+  .sale-product {
+    margin-top: 30px;
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .sale {
+    height: 60vh;
+  }
+  .sale h1 {
+    font-size: 30px;
+  }
+  .sale hr {
+    width: 120px;
+    height: 3px;
+  }
+  .sale-product {
+    margin-top: 20px;
+    gap: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .sale {
+    height: 50vh;
+    gap: 6px;
+  }
+  .sale h1 {
+    font-size: 20px;
+  }
+  .sale hr {
+    width: 100px;
+  }
+  .sale-product {
+    margin-top: 20px;
+    gap: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .sale {
+    height: 90vh;
+    gap: 6px;
+  }
+  .sale_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
