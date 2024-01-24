@@ -31,10 +31,9 @@
   row-gap: 80px;
 }
 .shopcategory-loadmore {
-  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50rem;
+
   width: 233px;
   height: 69px;
   border-radius: 75px;
@@ -90,9 +89,6 @@
     width: 150px;
     height: 40px;
     font-size: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media (max-width: 500px) {
