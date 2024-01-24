@@ -6,6 +6,7 @@ import Latest from "../Components/LatestRelease/Latest";
 import Advertisement from "../Components/Advertisement/Advertisement";
 import Advertisement_1 from "../Components/Advertisement/Advertisement_1";
 import Sale from "../Components/Sale/Sale";
+import Email from "../Components/Email/Email";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Latest />
       <Advertisement_1 />
       <Sale />
+      <Email />
     </div>
   );
 };
