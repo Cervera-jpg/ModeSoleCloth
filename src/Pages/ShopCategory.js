@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./CSS/ShopCategory.css";
 import { ShopContext } from "../shop/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
@@ -6,19 +6,26 @@ import Display from "../Components/Display/Display";
 
 const ShopCategory = (props) => {
   const { Product_ID } = useContext(ShopContext);
+  const [visibleProducts, setVisibleProducts] = useState(4); // Initial number of visible products
+
+  const loadMore = () => {
+    setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 4); // Increase the number of visible products by 4
+  };
+
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={props.banner} alt="" />
       <div className="shopcategory-indexSort">
         <p>
-          <span>Showing 1-12</span> out of 36 products
+          <span>Showing 1-{visibleProducts}</span> out of {Product_ID.length}{" "}
+          products
         </p>
         <div className="shopcategory-sort">
           Sort by <img src={dropdown_icon} alt="" />
         </div>
       </div>
       <div className="shopcategory-products">
-        {Product_ID.map((item, i) => {
+        {Product_ID.slice(0, visibleProducts).map((item, i) => {
           if (props.category === item.category) {
             return (
               <Display
@@ -35,8 +42,13 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
-      <button className="shopcategory-loadmore">Explore More</button>
+      {visibleProducts < Product_ID.length && (
+        <button className="shopcategory-loadmore" onClick={loadMore}>
+          Explore More
+        </button>
+      )}
     </div>
   );
 };
+
 export default ShopCategory;
