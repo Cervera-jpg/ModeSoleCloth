@@ -178,7 +178,7 @@ let Product_ID = [
   },
   {
     id: 14,
-    name: "Aesthetic Skirt with White Dress",
+    name: "Aesthetic Skirt with Dress",
     category: "womens",
     image: p14_img,
     new_price: 7950,
