@@ -5,7 +5,7 @@ import Sale_Display from "../Products/Sale_Display";
 const Sale = () => {
   return (
     <div className="sale">
-      <h1>LATEST RELEASES</h1>
+      <h1>ON SALE TODAY</h1>
       <hr />
       <div className="sale_products">
         {Sale_Display.map((item, i) => {
