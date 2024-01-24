@@ -1,11 +1,16 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./CSS/ShopCategory.css";
 import { ShopContext } from "../shop/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
 import Display from "../Components/Display/Display";
 
 const ShopCategory = (props) => {
-  const { Product_ID } = useContext(ShopContext);
+  const [noOfElement, setnoOfElement] = useState(4);
+  const slice = data.carddata.slice(0, noOfElement);
+  const loadMore = () => {
+    setnoOfElement(noOfElement + noOfElement);
+  };
+  /*const { Product_ID } = useContext(ShopContext);*/
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={props.banner} alt="" />
@@ -18,7 +23,7 @@ const ShopCategory = (props) => {
         </div>
       </div>
       <div className="shopcategory-products">
-        {Product_ID.map((item, i) => {
+        {slice.map((item, i) => {
           if (props.category === item.category) {
             return (
               <Display
@@ -35,7 +40,9 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
-      <div className="shopcategory-loadmore">Explore More</div>
+      <button className="shopcategory-loadmore" onClick={() => loadMore()}>
+        Explore More
+      </button>
     </div>
   );
 };
