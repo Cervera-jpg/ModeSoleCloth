@@ -31,9 +31,10 @@
   row-gap: 80px;
 }
 .shopcategory-loadmore {
+  display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-left: 50rem;
   width: 233px;
   height: 69px;
   border-radius: 75px;
