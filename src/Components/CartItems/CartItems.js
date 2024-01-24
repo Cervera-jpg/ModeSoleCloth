@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./CartItems.css";
-import { ShopContext } from "../../Context/ShopContext";
+import { ShopContext } from "../../shop/ShopContext";
 import remove_icon from "../Assets/cart_cross_icon.png";
 
 const CartItems = () => {
-  const { getTotalCartAmount, all_product, cartItems, removeFromCart } =
+  const { getTotalCartAmount, Product_ID, cartItems, removeFromCart } =
     useContext(ShopContext);
   return (
     <div className="cartitems">
@@ -17,18 +17,18 @@ const CartItems = () => {
         <p>Remove</p>
       </div>
       <hr />
-      {all_product.map((e) => {
+      {Product_ID.map((e) => {
         if (cartItems[e.id] > 0) {
           return (
             <div>
               <div className="cartitems-format cartitems-format-main">
                 <img src={e.image} alt="" className="carticon-product-icon" />
                 <p>{e.name}</p>
-                <p>${e.new_price}</p>
+                <p>₱{e.new_price}</p>
                 <button className="cartitems-quantity">
                   {cartItems[e.id]}
                 </button>
-                <p>${e.new_price * cartItems[e.id]}</p>
+                <p>₱{e.new_price * cartItems[e.id]}</p>
                 <img
                   className="cartitems-remove-icon"
                   src={remove_icon}
@@ -46,11 +46,11 @@ const CartItems = () => {
       })}
       <div className="cartitems-down">
         <div className="cartitems-total">
-          <h1>cart Totals</h1>
+          <h1>Cart Totals</h1>
           <div>
             <div className="cartitems-total-item">
               <p>Subtotal</p>
-              <p>${getTotalCartAmount()}</p>
+              <p>₱{getTotalCartAmount()}</p>
             </div>
             <hr />
             <div className="cartitems-total-item">
@@ -60,7 +60,7 @@ const CartItems = () => {
             <hr />
             <div className="cartitems-total-item">
               <h3>Total</h3>
-              <h3>${getTotalCartAmount()}</h3>
+              <h3>₱{getTotalCartAmount()}</h3>
             </div>
           </div>
           <button>PROCEED TO CHECKOUT</button>
