@@ -1,7 +1,7 @@
 .poster {
   margin-top: 1px;
   height: 850px;
-  background-image: url(/src/Components/Assets/frontpage\ bg.png);
+  background-image: url(/src/Components/Assets/frontpage\ bg1.png);
   display: flex;
 }
 .poster-left {
@@ -17,8 +17,10 @@
   display: flex;
   color: #d4931a;
   margin-left: 200px;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 900;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
 }
 .poster-hand-icon {
   display: flex;
