@@ -33,15 +33,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 150px auto;
+  margin-left: 50rem;
   width: 233px;
   height: 69px;
   border-radius: 75px;
-  background: #f5f5dc;
-  color: #787878;
+  background: #2df558;
+  color: #fdebeb;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
 }
 @media (max-width: 1280px) {
   .shopcategory-banner {
