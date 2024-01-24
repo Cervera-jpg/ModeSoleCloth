@@ -17,16 +17,24 @@ const Footer = () => {
       </div>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <img src={instagram_icon} className="icon" alt="" />
+          <a href="https://www.instagram.com" target="_blank" rel="">
+            <img src={instagram_icon} className="icon" alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={facebook_icon} className="icon" alt="" />
+          <a href="https://facebook.com" target="_blank" rel="">
+            <img src={facebook_icon} className="icon" alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={github_icon} className="icon" alt="" />
+          <a href="https://github.com" target="_blank" rel="">
+            <img src={github_icon} className="icon" alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={linkedin_icon} className="icon" alt="" />
+          <a href="https://linkedin.com" target="_blank" rel="">
+            <img src={linkedin_icon} className="icon" alt="" />
+          </a>
         </div>
       </div>
       <div className="footer-copyright">
