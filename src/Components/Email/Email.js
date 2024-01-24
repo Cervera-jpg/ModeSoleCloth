@@ -29,7 +29,7 @@ const Email = () => {
   };
 
   return (
-    <div className="newsletter">
+    <div className="email">
       <h1>Get Special Offers on Your Email</h1>
       <p>Subscribe to our newsletter to stay tuned</p>
       <div>

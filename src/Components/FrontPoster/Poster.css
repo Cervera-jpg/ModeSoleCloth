@@ -70,7 +70,7 @@
 @media (max-width: 1628px) {
   .poster {
     height: auto;
-    width: 1628px;
+    width: 1610px;
   }
   .poster p {
     font-size: 50px;
@@ -84,7 +84,7 @@
 @media (max-width: 1500px) {
   .poster {
     height: auto;
-    width: 1500px;
+    width: 1490px;
   }
   .poster-right img {
     height: auto;
@@ -95,7 +95,7 @@
 @media (max-width: 1400px) {
   .poster {
     height: auto;
-    width: 1400px;
+    width: 1385px;
   }
   .poster-right img {
     height: auto;
@@ -117,7 +117,7 @@
 @media (max-width: 1280px) {
   .poster {
     height: auto;
-    width: 1280px;
+    width: 1266px;
   }
   .poster-left {
     padding-left: 0px;

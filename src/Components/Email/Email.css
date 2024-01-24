@@ -1,4 +1,4 @@
-.newsletter {
+.email {
   width: 85%;
   height: 40vh;
   display: flex;
@@ -11,16 +11,16 @@
   gap: 30px;
 }
 
-.newsletter h1 {
+.email h1 {
   color: #454545;
   font-size: 55px;
   font-weight: 600;
 }
-.newsletter p {
+.email p {
   color: #454545;
   font-size: 30px;
 }
-.newsletter div {
+.email div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,7 @@
   border-radius: 80px;
   border: 1px solid #e3e3e3;
 }
-.newsletter input {
+.email input {
   width: 500px;
   margin-left: 30px;
   border: none;
@@ -39,7 +39,7 @@
   font-family: Poppins;
   font-size: 16px;
 }
-.newsletter div button {
+.email div button {
   width: 210px;
   height: 70px;
   border-radius: 80px;
@@ -47,4 +47,117 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+@media (max-width: 1628px) {
+  .email {
+    padding: 0px 121px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1500px) {
+  .email {
+    padding: 0px 112px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1400px) {
+  .email {
+    padding: 0px 104px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1280px) {
+  .email {
+    padding: 0px 95px;
+    margin-bottom: 0px;
+    gap: 20px;
+  }
+  .email h1 {
+    font-size: 36px;
+  }
+  .email p {
+    font-size: 16px;
+  }
+  .email div {
+    width: 600px;
+    height: 60px;
+  }
+  .email input {
+    width: 400px;
+  }
+  .email div button {
+    width: 160px;
+    height: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .email {
+    margin-bottom: 0px;
+  }
+  .email h1 {
+    font-size: 30px;
+  }
+  .email p {
+    font-size: 14px;
+  }
+  .email div {
+    width: 500px;
+    height: 50px;
+  }
+  .email input {
+    width: 300px;
+    font-size: 14px;
+  }
+  .email div button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .email {
+    margin-bottom: 0px;
+    height: 35vh;
+  }
+  .email h1 {
+    font-size: 18px;
+  }
+  .email p {
+    font-size: 12px;
+  }
+  .email div {
+    width: 400px;
+    height: 40px;
+  }
+  .email input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .email div button {
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .email {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    gap: 15px;
+  }
+  .email h1 {
+    font-size: 16px;
+  }
+  .email p {
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+  }
+  .email div {
+    width: 290px;
+  }
+  .email div input {
+    width: 130px;
+  }
 }
