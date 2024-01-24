@@ -1,7 +1,7 @@
 .poster {
   margin-top: 1px;
   height: 850px;
-  background-image: url(/src/Components/Assets/frontpage\ bg1.png);
+  background-image: url(/src/Components/Assets/frontpage\ bg.png);
   display: flex;
 }
 .poster-left {
@@ -13,6 +13,7 @@
   padding-left: 0px;
   line-height: 1.1;
 }
+
 .poster-left p {
   display: flex;
   color: #d4931a;
@@ -20,14 +21,7 @@
   font-size: 60px;
   font-weight: 900;
 }
-.poster-hand-icon {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.poster-hand-icon img {
-  width: 105px;
-}
+
 .poster-latest-btn {
   display: flex;
   justify-content: center;
@@ -46,7 +40,7 @@
 }
 .astonishing {
   height: auto;
-  margin-left: 200px;
+  margin-left: 100px;
   width: 700px;
 }
 .poster-right img {
@@ -62,7 +56,25 @@
 @media (max-width: 1700px) {
   .poster {
     height: auto;
-    width: 1800px;
+    width: 1700px;
+  }
+  .poster p {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .poster-right img {
+    height: auto;
+    width: 500px;
+  }
+}
+@media (max-width: 1628px) {
+  .poster {
+    height: auto;
+    width: 1628px;
+  }
+  .poster p {
+    font-size: 50px;
+    font-weight: 900;
   }
   .poster-right img {
     height: auto;
@@ -74,19 +86,49 @@
     height: auto;
     width: 1500px;
   }
+  .poster-right img {
+    height: auto;
+    width: 390px;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1400px) {
+  .poster {
+    height: auto;
+    width: 1400px;
+  }
+  .poster-right img {
+    height: auto;
+    width: 350px;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1350px) {
+  .poster {
+    height: auto;
+    width: 1350px;
+  }
+  .poster-right img {
+    height: auto;
+    width: 300px;
+    margin-right: 60px;
+  }
 }
 @media (max-width: 1280px) {
-  .poster-left {
-    padding-left: 100px;
+  .poster {
+    height: auto;
+    width: 1280px;
   }
-  .poster-left h2 {
-    font-size: 22px;
+  .poster-left {
+    padding-left: 0px;
   }
   .poster-left p {
-    font-size: 60px;
+    font-size: 40px;
+    margin-left: 100px;
   }
-  .poster-hand-icon img {
-    width: 80px;
+  .astonishing img {
+    width: 500px;
+    margin-left: 0px;
   }
   .poster-latest-btn {
     gap: 10px;
@@ -96,29 +138,64 @@
     font-size: 18px;
   }
   .poster-right img {
+    width: 250px;
+    margin-right: 250px;
+  }
+}
+@media (max-width: 1108px) {
+  .poster {
+    height: auto;
+    width: 1108px;
+  }
+  .poster-left {
+    padding-left: 0px;
+  }
+  .poster-left p {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  .astonishing img {
     width: 500px;
+    margin-left: 0px;
+  }
+  .poster-latest-btn {
+    gap: 10px;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .poster-right img {
+    width: 250px;
+    margin-right: 550px;
   }
 }
 @media (max-width: 1024px) {
-  .poster-left {
-    padding-left: 80px;
+  .poster {
+    height: auto;
+    width: 1024px;
   }
-  .poster-left h2 {
-    font-size: 20px;
+  .poster-left {
+    padding-left: 0px;
   }
   .poster-left p {
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 100px;
   }
-  .poster-hand-icon img {
-    width: 65px;
+  .astonishing img {
+    width: 500px;
+    margin-left: 0px;
   }
   .poster-latest-btn {
-    width: 220px;
-    height: 50px;
-    font-size: 16px;
+    gap: 10px;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
   }
   .poster-right img {
-    width: 400px;
+    width: 250px;
+    margin-right: 650px;
   }
 }
 @media (max-width: 800px) {

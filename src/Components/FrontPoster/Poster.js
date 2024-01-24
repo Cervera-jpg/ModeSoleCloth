@@ -9,10 +9,10 @@ const Poster = () => {
     <div className="poster">
       <div className="poster-left">
         <div>
-          <div className="poster-hand-icon">
-            <p>Indulge in the</p>
+          <p>Indulge in the</p>
+          <div className="astonishing">
+            <img src={astonishing} className="astonishing" alt="" />
           </div>
-          <img src={astonishing} className="astonishing" alt="" />
           <p>A new dimension to style</p>
         </div>
         <div className="poster-latest-btn">
