@@ -20,9 +20,6 @@ const Poster = () => {
           <img src={arrow_icon} alt="" />
         </div>
       </div>
-      <div className="poster-right">
-        <img src={poster_image} alt="" />
-      </div>
     </div>
   );
 };
