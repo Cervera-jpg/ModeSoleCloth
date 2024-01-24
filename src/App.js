@@ -9,6 +9,7 @@ import LoginPage from "./Pages/LoginPage";
 import banner_k from "./Components/Assets/banner_k.png";
 import banner_w from "./Components/Assets/banner_w.png";
 import banner_m from "./Components/Assets/banner_m.png";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
