@@ -34,18 +34,42 @@ import p33_img from "../Assets/Men/men_9.jpeg";
 import p34_img from "../Assets/Men/men_10.jpeg";
 import p35_img from "../Assets/Men/men_11.jpeg";
 import p36_img from "../Assets/Men/men_12.jpeg";
-import p37_img from "../Assets/Men/men_13.jpg";
-import p38_img from "../Assets/Men/men_14.jpg";
-import p39_img from "../Assets/Men/men_15.jpg";
-import p40_img from "../Assets/Men/men_16.jpg";
-import p41_img from "../Assets/Men/men_17.jpg";
-import p42_img from "../Assets/Men/men_18.jpg";
-import p43_img from "../Assets/Men/men_19.jpg";
-import p44_img from "../Assets/Men/men_20.jpg";
-import p45_img from "../Assets/Men/men_21.jpg";
-import p46_img from "../Assets/Men/men_22.jpg";
-import p47_img from "../Assets/Men/men_23.jpg";
-import p48_img from "../Assets/Men/men_24.jpg";
+import p37_img from "../Assets/Men/men_13.jpeg";
+import p38_img from "../Assets/Men/men_14.jpeg";
+import p39_img from "../Assets/Men/men_15.jpeg";
+import p40_img from "../Assets/Men/men_16.jpeg";
+import p41_img from "../Assets/Men/men_17.jpeg";
+import p42_img from "../Assets/Men/men_18.jpeg";
+import p43_img from "../Assets/Men/men_19.jpeg";
+import p44_img from "../Assets/Men/men_20.jpeg";
+import p45_img from "../Assets/Men/men_21.jpeg";
+import p46_img from "../Assets/Men/men_22.jpeg";
+import p47_img from "../Assets/Men/men_23.jpeg";
+import p48_img from "../Assets/Men/men_24.jpeg";
+import p49_img from "../Assets/Womens/womens_13.jpeg";
+import p50_img from "../Assets/Womens/women_14.jpeg";
+import p51_img from "../Assets/Womens/women_15.jpeg";
+import p52_img from "../Assets/Womens/women_16.jpeg";
+import p53_img from "../Assets/Womens/women_17.jpeg";
+import p54_img from "../Assets/Womens/women_18.jpeg";
+import p55_img from "../Assets/Womens/women_19.jpeg";
+import p56_img from "../Assets/Womens/women_20.jpeg";
+import p57_img from "../Assets/Womens/women_21.jpeg";
+import p58_img from "../Assets/Womens/women_22.jpeg";
+import p59_img from "../Assets/Womens/women_23.jpeg";
+import p60_img from "../Assets/Womens/women_24.jpeg";
+import p61_img from "../Assets/Kids/kids_13.jpeg";
+import p62_img from "../Assets/Kids/kids_14.jpeg";
+import p63_img from "../Assets/Kids/kids_15.jpeg";
+import p64_img from "../Assets/Kids/kids_16.jpeg";
+import p65_img from "../Assets/Kids/kids_17.jpeg";
+import p66_img from "../Assets/Kids/kids_18.jpeg";
+import p67_img from "../Assets/Kids/kids_19.jpeg";
+import p68_img from "../Assets/Kids/kids_20.jpeg";
+import p69_img from "../Assets/Kids/kids_21.jpeg";
+import p70_img from "../Assets/Kids/kids_22.jpeg";
+import p71_img from "../Assets/Kids/kids_23.jpeg";
+import p72_img from "../Assets/Kids/kids_24.jpeg";
 
 let Product_ID = [
   {
@@ -154,7 +178,7 @@ let Product_ID = [
   },
   {
     id: 14,
-    name: "Aesthetic Skirt with White Dress",
+    name: "Aesthetic Skirt with Dress",
     category: "womens",
     image: p14_img,
     new_price: 7950,
@@ -338,91 +362,91 @@ let Product_ID = [
   },
   {
     id: 37,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Simple Style Streets",
     category: "mens",
     image: p37_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 2550,
+    old_price: 5000,
   },
   {
     id: 38,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Navy Blue Styled Set",
     category: "mens",
     image: p38_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 3550,
+    old_price: 6450,
   },
   {
     id: 39,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Blue Flower Polo and Black Pants",
     category: "mens",
     image: p39_img,
-    new_price: 5950,
+    new_price: 6950,
     old_price: 9450,
   },
   {
     id: 40,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Anime Polo with Shorts",
     category: "mens",
     image: p40_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 4950,
+    old_price: 7450,
   },
   {
     id: 41,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Pink Polo with Stylish Pants",
     category: "mens",
     image: p41_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 3950,
+    old_price: 7950,
   },
   {
     id: 42,
-    name: "Black HipHop Themed Clothing Set",
+    name: "LongSleeves with Green Pants Set",
     category: "mens",
     image: p42_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 4950,
+    old_price: 8560,
   },
   {
     id: 43,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Stylish White Shirt with Black Pants",
     category: "mens",
     image: p43_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 3550,
+    old_price: 7895,
   },
   {
     id: 44,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Aestethic Shirt Combo",
     category: "mens",
     image: p44_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 2950,
+    old_price: 5550,
   },
   {
     id: 45,
-    name: "Black HipHop Themed Clothing Set",
+    name: "White Polo with Black Pants ",
     category: "mens",
     image: p45_img,
     new_price: 5950,
-    old_price: 9450,
+    old_price: 7050,
   },
   {
     id: 46,
-    name: "Black HipHop Themed Clothing Set",
+    name: "White and Brown Combo",
     category: "mens",
     image: p46_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 7950,
+    old_price: 12450,
   },
   {
     id: 47,
-    name: "Black HipHop Themed Clothing Set",
+    name: "Old School Style with Tote Bag",
     category: "mens",
     image: p47_img,
-    new_price: 5950,
-    old_price: 9450,
+    new_price: 8950,
+    old_price: 16450,
   },
   {
     id: 48,
@@ -431,6 +455,198 @@ let Product_ID = [
     image: p48_img,
     new_price: 5950,
     old_price: 9450,
+  },
+  {
+    id: 49,
+    name: "Long Sleeves with pants",
+    category: "womens",
+    image: p49_img,
+    new_price: 4650,
+    old_price: 7850,
+  },
+  {
+    id: 50,
+    name: "Aesthetic Skirt with White Dress",
+    category: "womens",
+    image: p50_img,
+    new_price: 7950,
+    old_price: 9950,
+  },
+  {
+    id: 51,
+    name: "Official Clothing Set",
+    category: "womens",
+    image: p51_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 52,
+    name: "Goth Inspired Clothing Set",
+    category: "womens",
+    image: p52_img,
+    new_price: 7950,
+    old_price: 14450,
+  },
+  {
+    id: 53,
+    name: "Blue Racing Styled Clothes",
+    category: "womens",
+    image: p53_img,
+    new_price: 6950,
+    old_price: 10450,
+  },
+  {
+    id: 54,
+    name: "Orange University Styled Fits",
+    category: "womens",
+    image: p54_img,
+    new_price: 4950,
+    old_price: 8450,
+  },
+  {
+    id: 55,
+    name: "Stylish Skirt Set",
+    category: "womens",
+    image: p55_img,
+    new_price: 2950,
+    old_price: 6750,
+  },
+  {
+    id: 56,
+    name: "Supreme Clothing Set",
+    category: "womens",
+    image: p56_img,
+    new_price: 10950,
+    old_price: 12050,
+  },
+  {
+    id: 57,
+    name: "White Dress with Leather Jacket Set",
+    category: "womens",
+    image: p57_img,
+    new_price: 6950,
+    old_price: 12450,
+  },
+  {
+    id: 58,
+    name: "The Hockey Player Set",
+    category: "womens",
+    image: p58_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 59,
+    name: "University Girl Fit Set",
+    category: "womens",
+    image: p59_img,
+    new_price: 3950,
+    old_price: 6450,
+  },
+  {
+    id: 60,
+    name: "Long Sleeves and Stylish Pants Set",
+    category: "womens",
+    image: p60_img,
+    new_price: 4950,
+    old_price: 8450,
+  },
+  {
+    id: 61,
+    name: "All Black Outfit Set with Bucket Hat",
+    category: "kids",
+    image: p61_img,
+    new_price: 1950,
+    old_price: 3450,
+  },
+  {
+    id: 62,
+    name: "Aesthetic Kid Set",
+    category: "kids",
+    image: p62_img,
+    new_price: 6950,
+    old_price: 9450,
+  },
+  {
+    id: 63,
+    name: "Stylish Boy Set with Hat",
+    category: "kids",
+    image: p63_img,
+    new_price: 4999,
+    old_price: 8666,
+  },
+  {
+    id: 64,
+    name: "Black Panda Set",
+    category: "kids",
+    image: p64_img,
+    new_price: 7950,
+    old_price: 9990,
+  },
+  {
+    id: 65,
+    name: "Stylish Brilliant Girl Set",
+    category: "kids",
+    image: p65_img,
+    new_price: 6950,
+    old_price: 7450,
+  },
+  {
+    id: 66,
+    name: "Yale University Set",
+    category: "kids",
+    image: p66_img,
+    new_price: 7950,
+    old_price: 9450,
+  },
+  {
+    id: 67,
+    name: "Striped Shirt Cool Set",
+    category: "kids",
+    image: p67_img,
+    new_price: 8650,
+    old_price: 10050,
+  },
+  {
+    id: 68,
+    name: "Black Unlucky Hoodie and Shorts Set",
+    category: "kids",
+    image: p68_img,
+    new_price: 6750,
+    old_price: 13050,
+  },
+  {
+    id: 69,
+    name: "Tout Hat and Red Shirt Set",
+    category: "kids",
+    image: p69_img,
+    new_price: 9850,
+    old_price: 16750,
+  },
+  {
+    id: 70,
+    name: "The Avocado Themed Set",
+    category: "kids",
+    image: p70_img,
+    new_price: 5950,
+    old_price: 9450,
+  },
+  {
+    id: 71,
+    name: "Minimalistic Clothing Set",
+    category: "kids",
+    image: p71_img,
+    new_price: 9950,
+    old_price: 10650,
+  },
+  {
+    id: 72,
+    name: "Pink Jumpers with Bag Set",
+    category: "kids",
+    image: p72_img,
+    new_price: 6950,
+    old_price: 10450,
   },
 ];
 export default Product_ID;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Poster.css";
 import arrow_icon from "../Assets/arrow.png";
 import astonishing from "../Assets/Astonishing.png";
-import poster_image from "../Assets/poster_image.png";
+import poster_image from "../Assets/poster_image1.png";
 
 const Poster = () => {
   return (
