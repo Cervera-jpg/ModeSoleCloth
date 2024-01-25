@@ -1,9 +1,7 @@
 import React from "react";
 import Poster from "../Components/FrontPoster/Poster";
-import Trending from "../Components/Trending/Trending";
-import Latest from "../Components/LatestRelease/Latest";
 import Advertisement from "../Components/Advertisement/Advertisement";
-import Advertisement_1 from "../Components/Advertisement/Advertisement_1";
+import Advertisement1 from "../Components/Advertisement/Advertisement1";
 import Sale from "../Components/Sale/Sale";
 import Email from "../Components/Email/Email";
 
@@ -12,7 +10,7 @@ const Home = () => {
     <div>
       <Poster />
       <Advertisement />
-      <Advertisement_1 />
+      <Advertisement1 />
       <Sale />
       <Email />
     </div>

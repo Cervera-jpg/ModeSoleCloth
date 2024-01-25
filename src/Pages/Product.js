@@ -3,7 +3,6 @@ import "./CSS/Product.css";
 import { useParams } from "react-router";
 import Directory from "../Components/Directory/Directory";
 import { ShopContext } from "../shop/ShopContext";
-import Product_ID from "../Components/Products/Product_ID";
 import Showcase from "../Components/Product_Showcase/Showcase";
 import Description from "../Components/Description/Description";
 import Recommendation from "../Components/Recommendation/Recommendation";

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Advertisement_1.css";
+import "./Advertisement1.css";
 import logo from "../Assets/logo.png";
 import model2 from "../Assets/model_2.png";
-const Advertisement_1 = () => {
+const Advertisement1 = () => {
   return (
     <div className="offers1">
       <div className="offers-left1">
@@ -18,4 +18,4 @@ const Advertisement_1 = () => {
   );
 };
 
-export default Advertisement_1;
+export default Advertisement1;

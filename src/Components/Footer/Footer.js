@@ -17,22 +17,22 @@ const Footer = () => {
       </div>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <a href="https://www.instagram.com" target="_blank" rel="">
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
             <img src={instagram_icon} className="icon" alt="" />
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="https://facebook.com" target="_blank" rel="">
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">
             <img src={facebook_icon} className="icon" alt="" />
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="https://github.com" target="_blank" rel="">
+          <a href="https://github.com" target="_blank" rel="noreferrer">
             <img src={github_icon} className="icon" alt="" />
           </a>
         </div>
         <div className="footer-icons-container">
-          <a href="https://linkedin.com" target="_blank" rel="">
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
             <img src={linkedin_icon} className="icon" alt="" />
           </a>
         </div>
