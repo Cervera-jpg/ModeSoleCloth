@@ -38,13 +38,15 @@ Joanna Marie Morada-
 -LoginPage Media Q
 -Banner Assets
 -LoginPage Buttons
+-SignupPage Assets
+-SignupPage
+-SignupPage CSS
+-SignupPage Media Q
 -Added Star Reviews Assets
 -Text and Fonts
 -Added Cart Assets
 -Add to cart function on display
 -ShopCategory CSS
--Item list
--Database list
 -Womens Banner Asset
 -Mens Banner Asset
 -Kids Banner Asset
