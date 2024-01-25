@@ -98,6 +98,7 @@
 }
 @media (max-width: 1024px) {
   .email {
+    padding: 0px 76 px;
     margin-bottom: 0px;
   }
   .email h1 {
@@ -122,7 +123,7 @@
 }
 @media (max-width: 800px) {
   .email {
-    padding: 0px 59px;
+    padding: 0px 51px;
     height: 40vh;
     margin-bottom: 0px;
   }
