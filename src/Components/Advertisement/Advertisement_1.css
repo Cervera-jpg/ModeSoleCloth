@@ -125,9 +125,13 @@
   }
   .offers-left1 h1 {
     font-size: 20px;
+    margin: 0px;
   }
   .offers-left1 p {
     font-size: 12px;
+  }
+  .offers-right1 {
+    width: 180px;
   }
   .offers-right1 img {
     width: 180px;

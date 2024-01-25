@@ -22,8 +22,10 @@ const Poster = () => {
             <div className="poster-hand-icon">
               <p>Indulge in the</p>
             </div>
-            <img src={astonishing} className="astonishing" alt="" />
-            <p>A new dimension to style</p>
+            <div className="astonishing">
+              <img src={astonishing} className="astonishing" alt="" />
+              <p>A new dimension to style</p>
+            </div>
           </div>
           <button className="poster-latest-btn" onClick={handleLatestClick}>
             Latest Collection
@@ -31,7 +33,6 @@ const Poster = () => {
           </button>
         </div>
       </div>
-
       {}
       <div id="latestSection">
         <Latest />

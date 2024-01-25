@@ -189,18 +189,34 @@
   }
 }
 @media (max-width: 500px) {
-  .astonishing img {
-    width: 300px;
+  .poster {
+    margin: 0px;
+  }
+  .astonishing {
+    padding-left: 10px;
     margin-left: 0px;
   }
-  .poster-left p {
-    font-size: 20px;
+  .astonishing img {
+    width: 200px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .astonishing p {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .poster-hand-icon p {
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 0px;
   }
   .poster-latest-btn {
     margin-top: 0px;
-    width: 160px;
-    height: 45px;
-    font-size: 11px;
+    width: 120px;
+    height: 40px;
+    font-size: 8px;
+    margin-left: 10px;
   }
   .poster-right {
     display: none;
