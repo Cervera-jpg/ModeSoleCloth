@@ -1,24 +1,44 @@
 import React from "react";
 import "./Poster.css";
+import { Link } from "react-scroll";
 import arrow_icon from "../Assets/arrow.png";
 import astonishing from "../Assets/Astonishing.png";
 import poster_image from "../Assets/poster_image1.png";
+import Latest from "../LatestRelease/Latest";
 
 const Poster = () => {
+  const handleLatestClick = () => {
+    // Scroll to the Latest section when the button is clicked
+    const latestSection = document.getElementById("latestSection");
+    if (latestSection) {
+      latestSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="poster">
-      <div className="poster-left">
-        <div>
-          <p>Indulge in the</p>
-          <div className="astonishing">
+    <div>
+      <div className="poster">
+        <div className="poster-left">
+          <div>
+            <div className="poster-hand-icon">
+              <p>Indulge in the</p>
+            </div>
             <img src={astonishing} className="astonishing" alt="" />
+            <p>A new dimension to style</p>
           </div>
-          <p>A new dimension to style</p>
+          <button className="poster-latest-btn" onClick={handleLatestClick}>
+            Latest Collection
+            <img src={arrow_icon} alt="" />
+          </button>
         </div>
-        <div className="poster-latest-btn">
-          <div>Latest Collection</div>
-          <img src={arrow_icon} alt="" />
+        <div className="poster-right">
+          <img src={poster_image} alt="" />
         </div>
+      </div>
+
+      {}
+      <div id="latestSection">
+        <Latest />
       </div>
     </div>
   );
