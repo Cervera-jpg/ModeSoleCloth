@@ -8,7 +8,6 @@ import Latest from "../LatestRelease/Latest";
 
 const Poster = () => {
   const handleLatestClick = () => {
-    // Scroll to the Latest section when the button is clicked
     const latestSection = document.getElementById("latestSection");
     if (latestSection) {
       latestSection.scrollIntoView({ behavior: "smooth" });
@@ -30,9 +29,6 @@ const Poster = () => {
             Latest Collection
             <img src={arrow_icon} alt="" />
           </button>
-        </div>
-        <div className="poster-right">
-          <img src={poster_image} alt="" />
         </div>
       </div>
 
