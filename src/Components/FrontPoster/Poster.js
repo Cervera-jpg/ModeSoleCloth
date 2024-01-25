@@ -29,7 +29,7 @@ const Poster = () => {
         </div>
         {/* Add the image to the right side */}
         <div className="poster-right">
-          <img src={poster_image} alt="Poster Image" />
+          <img src={poster_image} alt="" />
         </div>
       </div>
       <div id="latestSection">
