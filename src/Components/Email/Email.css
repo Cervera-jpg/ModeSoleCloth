@@ -90,6 +90,12 @@
     height: 60px;
   }
 }
+@media (max-width: 1108px) {
+  .email {
+    padding: 0px 82px;
+    margin-bottom: 0px;
+  }
+}
 @media (max-width: 1024px) {
   .email {
     margin-bottom: 0px;

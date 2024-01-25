@@ -93,6 +93,30 @@
     margin-top: 215px;
   }
 }
+@media (max-width: 1108px) {
+  .offers1 {
+    padding: 0px 82px;
+    margin-bottom: 0px;
+  }
+  .offers-left1 h1 {
+    font-size: 40px;
+  }
+  .offers-left1 p {
+    font-size: 18px;
+  }
+  .offers-right1 img {
+    width: 300px;
+  }
+  .offers-left1 button {
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .offers-right1 {
+    padding-top: 30px;
+    margin-top: 215px;
+  }
+}
 @media (max-width: 1024px) {
   .offers1 {
     padding: 0px 72px;
