@@ -1,6 +1,5 @@
 import p1_img from "../Assets/Kids/kids_6.jpeg";
 import p2_img from "../Assets/Kids/kids_7.jpeg";
-import p3_img from "../Assets/Womens/womens_7.jpeg";
 import p4_img from "../Assets/Womens/womens_3.jpeg";
 import p5_img from "../Assets/Men/men_12.jpeg";
 
@@ -32,13 +31,6 @@ let Trending_Display = [
     image: p4_img,
     new_price: 8950.0,
     old_price: 12650.0,
-  },
-  {
-    id: 5,
-    name: "Stylish Skirt Set",
-    image: p3_img,
-    new_price: 2950,
-    old_price: 6750,
   },
 ];
 

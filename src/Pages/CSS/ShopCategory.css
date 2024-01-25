@@ -71,10 +71,12 @@
     margin: auto;
   }
   .shopcategory-loadmore {
-    margin: 100px auto;
     width: 200px;
     height: 60px;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 800px) {
@@ -85,7 +87,6 @@
     width: 95%;
   }
   .shopcategory-loadmore {
-    margin: 60px auto;
     width: 150px;
     height: 40px;
     font-size: 13px;
