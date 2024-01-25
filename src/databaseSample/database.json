@@ -1,0 +1,39 @@
+
+
+//database Product collection 
+/*
+{
+  "_id": ObjectId("60a79b21c9e77c1e08d0ec6d"),
+  "name": "Cotton T-Shirt",
+  "description": "Comfortable cotton T-shirt for everyday wear.",
+  "price": 19.99,
+  "category": "Shirts",
+  "images": ["url1.jpg", "url2.jpg"],
+  "stock_quantity": 50,
+  "created_at": ISODate("2022-05-20T10:30:00Z")
+}
+*/
+
+
+/*database User collection */
+/*{
+  "_id": ObjectId("60a79b21c9e77c1e08d0ec6e"),
+  "username": "user123",
+  "email": "user123@example.com",
+  "password": "hashed_password_here",
+  "created_at": ISODate("2022-05-25T08:45:00Z")
+}*/
+
+
+/*database Order collection/Cart
+{
+  "_id": ObjectId("60a79b21c9e77c1e08d0ec6f"),
+  "user_id": ObjectId("60a79b21c9e77c1e08d0ec6e"),
+  "products": [
+{ "product_id": ObjectId("60a79b21c9e77c1e08d0ec6d"), "quantity": 2 },
+{ "product_id": ObjectId("..."), "quantity": 1 },
+    // Additional products in the order
+  ],
+  "total_amount": 59.98,
+  "order_date": ISODate("2022-05-28T15:20:00Z")
+}*/
